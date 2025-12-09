@@ -1,0 +1,876 @@
+{
+  "multi_patient": {
+    "is_multi_patient": false,
+    "multi_patient_clusters": {},
+    "confidence": 0.9996333333333333
+  },
+  "document_type": {
+    "document_classifier_info": {
+      "model_name": "lmc-healthcare",
+      "model_index": 1,
+      "doc_map_type": "custom",
+      "doc_type_name": "Referral Inbound",
+      "doc_type_index": 438,
+      "input_doc_type": "Referral Inbound - THY",
+      "output_doc_type": "Referral Inbound - THY"
+    },
+    "overall": {
+      "class": "Referral Inbound - THY",
+      "confidence": 0.39915,
+      "index": 438
+    },
+    "page_1": {
+      "class": "Referral Inbound - THY",
+      "index": 437,
+      "confidence": "0.35215",
+      "angle": 0.1484
+    },
+    "page_2": {
+      "class": "Referral Inbound - DM",
+      "index": 433,
+      "confidence": "0.671344",
+      "angle": 0
+    },
+    "page_3": {
+      "class": "Referral Inbound - THY",
+      "index": 437,
+      "confidence": "0.446146",
+      "angle": 0
+    }
+  },
+  "imaging_modality": { "imaging": "No", "exam_type": null },
+  "regions": {
+    "metadata": {
+      "data": {
+        "priority": {
+          "output": { "processed": { "value": "No", "source": "" }, "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null,
+          "input": "No"
+        },
+        "date": {
+          "output": { "processed": ["23-10-2025"], "raw": "Oct 23, 2025" },
+          "confidence": 0.9298679033915201,
+          "bounding_box": {
+            "top_left_x": 943,
+            "top_left_y": 1602,
+            "bottom_right_x": 1079,
+            "bottom_right_y": 1623
+          },
+          "page_number": 1
+        },
+        "fax_date": {
+          "output": { "processed": ["23-10-2025"], "raw": "2025-10-23" },
+          "confidence": 0.9999408721923828,
+          "bounding_box": {
+            "top_left_x": 712,
+            "top_left_y": 4,
+            "bottom_right_x": 823,
+            "bottom_right_y": 29
+          },
+          "page_number": 1
+        }
+      }
+    },
+    "from": {
+      "data": {
+        "physician_name": {
+          "output": {
+            "processed": {
+              "first": "George",
+              "middle": "M",
+              "last": "Condrut"
+            },
+            "raw": "Dr.  George M Condrut"
+          },
+          "confidence": 0.9981,
+          "bounding_box": {
+            "physician_name": {
+              "top_left_x": 411,
+              "top_left_y": 1499,
+              "bottom_right_x": 653,
+              "bottom_right_y": 1528
+            }
+          },
+          "page_number": 1,
+          "input": { "first": "George", "middle": "", "last": "Condrut" },
+          "matched": { "first": "George", "middle": "", "last": "Condrut" }
+        },
+        "phone": {
+          "output": {
+            "processed": "6135059704,6135059707",
+            "raw": "613.505.9704 ₣ 613.505.9707"
+          },
+          "confidence": 0.8806,
+          "bounding_box": {
+            "phone": {
+              "top_left_x": 1226,
+              "top_left_y": 1818,
+              "bottom_right_x": 1356,
+              "bottom_right_y": 1862
+            }
+          },
+          "page_number": 1,
+          "input": "6135993422",
+          "matched": "6135993422"
+        },
+        "fax_number": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null,
+          "input": "6135996922",
+          "matched": "6135996922"
+        },
+        "email": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "page_number": null,
+          "input": "",
+          "matched": ""
+        },
+        "address": {
+          "output": {
+            "processed": {
+              "address": "Suite 208 4100 Strandherd Drive.",
+              "city": "Ottawa,",
+              "state/province": "ON",
+              "zip/postal": "K2J QV2",
+              "country": ""
+            },
+            "raw": {
+              "address": "Suite 208 4100 Strandherd Drive.",
+              "city": "Ottawa,",
+              "state/province": "ON",
+              "zip/postal": "K2J QV2",
+              "country": ""
+            }
+          },
+          "confidence": 0.9867263157894738,
+          "bounding_box": {
+            "address": {
+              "top_left_x": 1229,
+              "top_left_y": 1758,
+              "bottom_right_x": 1302,
+              "bottom_right_y": 1775
+            },
+            "city": {
+              "top_left_x": 1226,
+              "top_left_y": 1776,
+              "bottom_right_x": 1291,
+              "bottom_right_y": 1800
+            },
+            "state/province": {
+              "top_left_x": 1295,
+              "top_left_y": 1777,
+              "bottom_right_x": 1322,
+              "bottom_right_y": 1800
+            },
+            "zip/postal": {
+              "top_left_x": 1326,
+              "top_left_y": 1775,
+              "bottom_right_x": 1392,
+              "bottom_right_y": 1800
+            }
+          },
+          "page_number": 1,
+          "input": {
+            "address": "210-308 Palladium Dr",
+            "city": "Kanata",
+            "stateOrProvince": "ON",
+            "zipOrPostal": "K2V 1A1",
+            "country": "CA"
+          },
+          "matched": {
+            "address": "210-308 Palladium Dr",
+            "city": "Kanata",
+            "country": "CA",
+            "state/province": "ON",
+            "zip/postal": "K2V 1A1",
+            "locationId": 412902,
+            "taxId": null
+          }
+        },
+        "provider_id": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null,
+          "input": "",
+          "matched": ""
+        },
+        "billing_number": {
+          "output": { "processed": "019732", "raw": "019732" },
+          "confidence": 0.7987,
+          "bounding_box": {
+            "billing_number": {
+              "top_left_x": 1180,
+              "top_left_y": 1497,
+              "bottom_right_x": 1259,
+              "bottom_right_y": 1519
+            }
+          },
+          "page_number": 1,
+          "input": "019732",
+          "matched": "019732"
+        },
+        "npi": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null,
+          "input": "",
+          "matched": ""
+        },
+        "facility": {
+          "output": { "processed": "LMC", "raw": "LMC" },
+          "confidence": 0.8228,
+          "bounding_box": {
+            "facility": {
+              "top_left_x": 1071,
+              "top_left_y": 1728,
+              "bottom_right_x": 1101,
+              "bottom_right_y": 1747
+            }
+          },
+          "page_number": 1
+        },
+        "speciality": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "page_number": null
+        },
+        "degree": {
+          "output": { "processed": "MD:", "raw": "MD:" },
+          "confidence": 0.9006,
+          "bounding_box": {
+            "degree": {
+              "top_left_x": 467,
+              "top_left_y": 215,
+              "bottom_right_x": 524,
+              "bottom_right_y": 240
+            }
+          },
+          "page_number": 2
+        },
+        "source": "DIRECTORY",
+        "matched_score": 45.5,
+        "matched_physicians": 1,
+        "matched_search_input": [
+          { "input": { "billingNumber": "019732" }, "matchFound": true }
+        ]
+      }
+    },
+    "to": {
+      "data": {
+        "facility": {
+          "output": {
+            "processed": "LMC Diabetes & Endocrinology",
+            "raw": "LMC Diabetes & Endocrinology"
+          },
+          "confidence": 0.8735,
+          "bounding_box": {
+            "facility": {
+              "top_left_x": 699,
+              "top_left_y": 202,
+              "bottom_right_x": 1086,
+              "bottom_right_y": 294
+            }
+          },
+          "page_number": 1,
+          "input": "LMC - Ottawa",
+          "auto_populate": "LMC - Ottawa",
+          "auto_populate_source": "NO_MAPPING"
+        },
+        "physician_name": {
+          "output": {
+            "processed": { "first": "George", "middle": "", "last": "Condrut" },
+            "raw": "George Condrut"
+          },
+          "confidence": 0.9817,
+          "bounding_box": {
+            "physician_name": {
+              "top_left_x": 645,
+              "top_left_y": 216,
+              "bottom_right_x": 846,
+              "bottom_right_y": 244
+            }
+          },
+          "page_number": 2,
+          "input": [{ "first": "No Assigned LMC", "last": ".Provider" }],
+          "auto_populate": { "first": "No Assigned LMC", "last": ".Provider" },
+          "auto_populate_source": "DEFAULT"
+        },
+        "phone": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        },
+        "fax_number": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        },
+        "email": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "page_number": null
+        },
+        "address": {
+          "output": {
+            "processed": {
+              "address": "1861 ROBERTSON No",
+              "city": "",
+              "state/province": "",
+              "zip/postal": "",
+              "country": ""
+            },
+            "raw": {
+              "address": "1861 ROBERTSON No",
+              "city": "",
+              "state/province": "",
+              "zip/postal": "",
+              "country": ""
+            }
+          },
+          "confidence": 0.30984210526315786,
+          "bounding_box": {
+            "address": {
+              "top_left_x": 613,
+              "top_left_y": 272,
+              "bottom_right_x": 895,
+              "bottom_right_y": 302
+            }
+          },
+          "page_number": 2,
+          "input": {
+            "address": "4100 Strandherd Dr., Suite # 208",
+            "city": "Nepean",
+            "country": "ca"
+          },
+          "auto_populate": {
+            "address": "4100 Strandherd Dr., Suite # 208",
+            "city": "Nepean",
+            "country": "ca"
+          },
+          "auto_populate_source": "NO_MAPPING"
+        },
+        "provider_id": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        },
+        "speciality": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "page_number": null
+        },
+        "npi": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        },
+        "degree": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        },
+        "billing_number": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        }
+      }
+    },
+    "insurance_information": {
+      "data": {
+        "primary": {
+          "insurance_name": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "insurance_plan": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "group_number": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "bill_type": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "subscriber_name": {
+            "output": {
+              "processed": { "first": "Deborah", "middle": "", "last": "" },
+              "raw": "\"Deborah\""
+            },
+            "confidence": 0.6233,
+            "bounding_box": {
+              "subscriber_name": {
+                "top_left_x": 357,
+                "top_left_y": 438,
+                "bottom_right_x": 469,
+                "bottom_right_y": 463
+              }
+            },
+            "page_number": 1
+          },
+          "subscriber_date_of_birth": {
+            "output": {
+              "processed": { "day": "", "month": "", "year": "", "age": "" },
+              "raw": { "date": "", "age": "" }
+            },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "subscriber_id": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "subscriber_phone": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "subscriber_address": {
+            "output": {
+              "processed": {
+                "address": "",
+                "city": "",
+                "state/province": "",
+                "zip/postal": "",
+                "country": ""
+              },
+              "raw": {
+                "address": "",
+                "city": "",
+                "state/province": "",
+                "zip/postal": "",
+                "country": ""
+              }
+            },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "subscriber_group_number": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          }
+        },
+        "secondary": {
+          "insurance_name": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "insurance_plan": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "group_number": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "bill_type": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "subscriber_name": {
+            "output": {
+              "processed": { "first": "", "middle": "", "last": "" },
+              "raw": ""
+            },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "subscriber_date_of_birth": {
+            "output": {
+              "processed": { "day": "", "month": "", "year": "", "age": "" },
+              "raw": { "date": "", "age": "" }
+            },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "subscriber_id": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "subscriber_phone": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "subscriber_address": {
+            "output": {
+              "processed": {
+                "address": "",
+                "city": "",
+                "state/province": "",
+                "zip/postal": "",
+                "country": ""
+              },
+              "raw": {
+                "address": "",
+                "city": "",
+                "state/province": "",
+                "zip/postal": "",
+                "country": ""
+              }
+            },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "subscriber_group_number": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          }
+        },
+        "guarantor": {
+          "guarantor_name": {
+            "output": {
+              "processed": { "first": "", "middle": "", "last": "" },
+              "raw": ""
+            },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "guarantor_phone": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "guarantor_address": {
+            "output": {
+              "processed": {
+                "address": "",
+                "city": "",
+                "state/province": "",
+                "zip/postal": "",
+                "country": ""
+              },
+              "raw": {
+                "address": "",
+                "city": "",
+                "state/province": "",
+                "zip/postal": "",
+                "country": ""
+              }
+            },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          }
+        }
+      }
+    },
+    "reason_diagnosis_procedure": {
+      "data": {
+        "complete_text": [],
+        "reason": [
+          { "output": { "processed": { "reason": "Diabetes" } } },
+          { "output": { "processed": { "reason": "Thyroid" } } },
+          { "output": { "processed": { "reason": "Lipids" } } },
+          { "output": { "processed": { "reason": "Osteo" } } },
+          { "output": { "processed": { "reason": "Diabetes" } } }
+        ],
+        "diagnosis": [
+          {
+            "output": {
+              "processed": {
+                "icd": "",
+                "icd9": "",
+                "icd10": "",
+                "diagnosis": "Diabetes Rapid Triage",
+                "diagnoses_date": { "day": "", "month": "", "year": "" }
+              },
+              "raw": {
+                "icd": "",
+                "icd9": "",
+                "icd10": "",
+                "diagnosis": "Diabetes Rapid Triage",
+                "diagnoses_date": { "day": "", "month": "", "year": "" }
+              }
+            },
+            "confidence": 0.7799,
+            "bounding_box": {
+              "diagnosis": {
+                "top_left_x": 501,
+                "top_left_y": 913,
+                "bottom_right_x": 710,
+                "bottom_right_y": 941
+              }
+            },
+            "page_number": 1
+          }
+        ],
+        "order_date": {
+          "output": {
+            "processed": { "day": "", "month": "", "year": "" },
+            "raw": ""
+          },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        },
+        "IP_OR_OP": [],
+        "DME_AUTH_REQ_FORM": [],
+        "auth_req_form_commercial_OP": [],
+        "auth_req_form_commercial_BHOP": [],
+        "pre_auth_req_form_medicare_OP": [],
+        "medicaid_GOVT_OP": [],
+        "auth_req_form_commercial_DME": [],
+        "pre_auth_req_form_medicare_DME": [],
+        "medicaid_GOVT_DME": [],
+        "medicaid_home_commercial_LTSS": [],
+        "bh_template": [],
+        "input": {
+          "diagnosis": [],
+          "reason": [{ "cpt_code": "Thyroid", "reason": "Thyroid" }]
+        },
+        "matched": { "reason": [{ "cpt_code": "DM ", "reason": "Diabetes " }] }
+      }
+    },
+    "patient_information": {
+      "data": {
+        "name": {
+          "output": {
+            "processed": {
+              "first": "Deborah",
+              "middle": "",
+              "last": "Norring"
+            },
+            "raw": "Norring,  Deborah"
+          },
+          "confidence": 0.9997,
+          "bounding_box": {
+            "name": {
+              "top_left_x": 104,
+              "top_left_y": 59,
+              "bottom_right_x": 379,
+              "bottom_right_y": 95
+            }
+          },
+          "page_number": 3,
+          "input": { "first": "Deborah", "middle": "", "last": "Norring" }
+        },
+        "patient_id": {
+          "output": { "processed": "#167631", "raw": "#167631" },
+          "confidence": 0.9976,
+          "bounding_box": {
+            "patient_id": {
+              "top_left_x": 1255,
+              "top_left_y": 58,
+              "bottom_right_x": 1393,
+              "bottom_right_y": 92
+            }
+          },
+          "page_number": 1
+        },
+        "medical_record_number": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "page_number": null
+        },
+        "social_security_number": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "page_number": null
+        },
+        "health_card_number": {
+          "output": {
+            "processed": { "NO": "7069305915", "CODE": "" },
+            "raw": "7069 305 915"
+          },
+          "confidence": 0.9994,
+          "bounding_box": {
+            "health_card_number": {
+              "top_left_x": 443,
+              "top_left_y": 500,
+              "bottom_right_x": 590,
+              "bottom_right_y": 527
+            }
+          },
+          "page_number": 1,
+          "input": { "CODE": "ON", "NO": "7069305915" }
+        },
+        "DOB": {
+          "output": {
+            "processed": {
+              "day": "13",
+              "month": "1",
+              "year": "1991",
+              "age": "34"
+            },
+            "raw": { "date": "13 01 1991", "age": "" }
+          },
+          "confidence": 0.9997,
+          "bounding_box": {
+            "date": {
+              "top_left_x": 1155,
+              "top_left_y": 446,
+              "bottom_right_x": 1279,
+              "bottom_right_y": 464
+            }
+          },
+          "page_number": 1,
+          "input": { "day": "13", "month": "01", "year": "1991" }
+        },
+        "phone": {
+          "output": {
+            "processed": {
+              "work": "",
+              "home": "",
+              "cell": "",
+              "undefined": ["88537060", "6138537066"]
+            },
+            "raw": {
+              "work": "",
+              "home": "",
+              "cell": "",
+              "undefined": ["8-853-7060", "613-853-70668"]
+            }
+          },
+          "confidence": 0.7319,
+          "bounding_box": {
+            "undefined": {
+              "top_left_x": 720,
+              "top_left_y": 647,
+              "bottom_right_x": 846,
+              "bottom_right_y": 678
+            }
+          },
+          "page_number": 1,
+          "input": [{ "home": "", "work": "", "cell": "6138537060" }]
+        },
+        "gender": {
+          "output": { "processed": "F", "raw": "F" },
+          "confidence": 0.9971,
+          "bounding_box": {
+            "gender": {
+              "top_left_x": 897,
+              "top_left_y": 123,
+              "bottom_right_x": 915,
+              "bottom_right_y": 152
+            }
+          },
+          "page_number": 2,
+          "input": "Female"
+        },
+        "email": {
+          "output": {
+            "processed": "deborahhofring@gmail.com",
+            "raw": "deborahhofring@gmail.com"
+          },
+          "confidence": 1,
+          "bounding_box": {
+            "email": {
+              "top_left_x": 1033,
+              "top_left_y": 641,
+              "bottom_right_x": 1319,
+              "bottom_right_y": 674
+            }
+          },
+          "page_number": 1,
+          "input": "deborahhofring@gmail.com"
+        },
+        "address": {
+          "output": {
+            "processed": {
+              "address": "81 Monterey Dr",
+              "city": "Ottawa,",
+              "state/province": "ON",
+              "zip/postal": "K2H7AQ",
+              "country": ""
+            },
+            "raw": {
+              "address": "81 Monterey Dr",
+              "city": "Ottawa,",
+              "state/province": "ON",
+              "zip/postal": "K2H7AQ",
+              "country": ""
+            }
+          },
+          "confidence": 0.9982789473684209,
+          "bounding_box": {
+            "address": {
+              "top_left_x": 427,
+              "top_left_y": 542,
+              "bottom_right_x": 594,
+              "bottom_right_y": 566
+            },
+            "city": {
+              "top_left_x": 435,
+              "top_left_y": 570,
+              "bottom_right_x": 511,
+              "bottom_right_y": 588
+            },
+            "state/province": {
+              "top_left_x": 522,
+              "top_left_y": 570,
+              "bottom_right_x": 550,
+              "bottom_right_y": 588
+            },
+            "zip/postal": {
+              "top_left_x": 568,
+              "top_left_y": 569,
+              "bottom_right_x": 656,
+              "bottom_right_y": 588
+            }
+          },
+          "page_number": 1,
+          "input": {
+            "address": "81 Monterey Dr",
+            "city": "Ottawa",
+            "stateOrProvince": "Ontario",
+            "zipOrPostal": "K2H 7A9",
+            "country": ""
+          }
+        }
+      }
+    },
+    "waitlist_type": {
+      "data": { "auto_populate": ".Referral", "input": ".Referral" }
+    }
+  }
+}

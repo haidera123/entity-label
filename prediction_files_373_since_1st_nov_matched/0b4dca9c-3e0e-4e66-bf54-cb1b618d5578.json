@@ -1,0 +1,847 @@
+{
+  "multi_patient": {
+    "is_multi_patient": false,
+    "multi_patient_clusters": {},
+    "confidence": 0.9993
+  },
+  "document_type": {
+    "document_classifier_info": {
+      "model_name": "lmc-healthcare",
+      "model_index": 1,
+      "doc_map_type": "custom",
+      "doc_type_name": "Referral Inbound",
+      "doc_type_index": 434,
+      "input_doc_type": "Referral Inbound - DM",
+      "output_doc_type": "Referral Inbound - DM"
+    },
+    "overall": {
+      "class": "Referral Inbound - DM",
+      "confidence": 0.42161,
+      "index": 434
+    },
+    "page_1": {
+      "class": "Referral Inbound - DM",
+      "index": 433,
+      "confidence": "0.421612",
+      "angle": 0
+    }
+  },
+  "imaging_modality": { "imaging": "No", "exam_type": null },
+  "regions": {
+    "metadata": {
+      "data": {
+        "priority": {
+          "output": {
+            "processed": { "value": "No", "source": "text" },
+            "raw": "status: non-urgent"
+          },
+          "confidence": 0.9992945492267609,
+          "bounding_box": {
+            "top_left_x": 165,
+            "top_left_y": 409,
+            "bottom_right_x": 581,
+            "bottom_right_y": 445
+          },
+          "page_number": 1,
+          "input": "No"
+        },
+        "date": {
+          "output": { "processed": ["23-10-2025"], "raw": "Date: 2025-10-23" },
+          "confidence": 0.9998795092105865,
+          "bounding_box": {
+            "top_left_x": 169,
+            "top_left_y": 366,
+            "bottom_right_x": 578,
+            "bottom_right_y": 398
+          },
+          "page_number": 1
+        },
+        "fax_date": {
+          "output": { "processed": ["24-10-2025"], "raw": "Oct 24, 2025" },
+          "confidence": 0.9999697009722391,
+          "bounding_box": {
+            "top_left_x": 9,
+            "top_left_y": 4,
+            "bottom_right_x": 134,
+            "bottom_right_y": 30
+          },
+          "page_number": 1
+        }
+      }
+    },
+    "from": {
+      "data": {
+        "physician_name": {
+          "output": {
+            "processed": { "first": "A.", "middle": "", "last": "KerrRamsay" },
+            "raw": "Dr.  A.  Kerr-Ramsay"
+          },
+          "confidence": 0.9786,
+          "bounding_box": {
+            "physician_name": {
+              "top_left_x": 503,
+              "top_left_y": 1587,
+              "bottom_right_x": 796,
+              "bottom_right_y": 1626
+            }
+          },
+          "page_number": 1,
+          "input": { "first": "A.", "middle": "", "last": "KerrRamsay" }
+        },
+        "phone": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null,
+          "input": ""
+        },
+        "fax_number": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null,
+          "input": "6474767011"
+        },
+        "email": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "page_number": null,
+          "input": ""
+        },
+        "address": {
+          "output": {
+            "processed": {
+              "address": "1275 Finch Ave. West",
+              "city": "Downsview",
+              "state/province": "ON",
+              "zip/postal": "M3J 0L5",
+              "country": ""
+            },
+            "raw": {
+              "address": "1275 Finch Ave. West",
+              "city": "Downsview",
+              "state/province": "ON",
+              "zip/postal": "M3J 0L5",
+              "country": ""
+            }
+          },
+          "confidence": 0.9953263157894737,
+          "bounding_box": {
+            "address": {
+              "top_left_x": 222,
+              "top_left_y": 225,
+              "bottom_right_x": 520,
+              "bottom_right_y": 259
+            },
+            "city": {
+              "top_left_x": 527,
+              "top_left_y": 224,
+              "bottom_right_x": 679,
+              "bottom_right_y": 259
+            },
+            "state/province": {
+              "top_left_x": 691,
+              "top_left_y": 224,
+              "bottom_right_x": 733,
+              "bottom_right_y": 259
+            },
+            "zip/postal": {
+              "top_left_x": 743,
+              "top_left_y": 224,
+              "bottom_right_x": 865,
+              "bottom_right_y": 259
+            }
+          },
+          "page_number": 1,
+          "input": {
+            "address": "1275 Finch Ave. West",
+            "city": "Downsview",
+            "stateOrProvince": "ON",
+            "zipOrPostal": "M3J 0L5",
+            "country": ""
+          }
+        },
+        "provider_id": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null,
+          "input": ""
+        },
+        "billing_number": {
+          "output": { "processed": "051410", "raw": "(051410)" },
+          "confidence": 0.999,
+          "bounding_box": {
+            "billing_number": {
+              "top_left_x": 798,
+              "top_left_y": 1498,
+              "bottom_right_x": 936,
+              "bottom_right_y": 1537
+            }
+          },
+          "page_number": 1,
+          "input": "051410"
+        },
+        "npi": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null,
+          "input": ""
+        },
+        "facility": {
+          "output": { "processed": "Finch", "raw": "Finch" },
+          "confidence": 0.99,
+          "bounding_box": {
+            "facility": {
+              "top_left_x": 220,
+              "top_left_y": 178,
+              "bottom_right_x": 315,
+              "bottom_right_y": 215
+            }
+          },
+          "page_number": 1
+        },
+        "speciality": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "page_number": null
+        },
+        "degree": {
+          "output": { "processed": "MRP", "raw": "MRP" },
+          "confidence": 0.5419,
+          "bounding_box": {
+            "degree": {
+              "top_left_x": 156,
+              "top_left_y": 1541,
+              "bottom_right_x": 229,
+              "bottom_right_y": 1578
+            }
+          },
+          "page_number": 1
+        },
+        "source": "AI",
+        "matched_physicians": 0
+      }
+    },
+    "to": {
+      "data": {
+        "facility": {
+          "output": { "processed": "ENDOCRINOLOGY", "raw": "ENDOCRINOLOGY" },
+          "confidence": 0.7075,
+          "bounding_box": {
+            "facility": {
+              "top_left_x": 419,
+              "top_left_y": 529,
+              "bottom_right_x": 691,
+              "bottom_right_y": 559
+            }
+          },
+          "page_number": 1,
+          "input": "LMC – Thornhill/Vaughan",
+          "auto_populate": "LMC – Thornhill/Vaughan",
+          "matched": "LMC – Thornhill/Vaughan",
+          "matched_score": 55.5,
+          "auto_populate_source": "DOCUMENT"
+        },
+        "physician_name": {
+          "output": {
+            "processed": { "first": "LMC", "middle": "", "last": "STEELES" },
+            "raw": "LMC STEELES, "
+          },
+          "confidence": 0.7535,
+          "bounding_box": {
+            "physician_name": {
+              "top_left_x": 416,
+              "top_left_y": 498,
+              "bottom_right_x": 647,
+              "bottom_right_y": 533
+            }
+          },
+          "page_number": 1,
+          "input": [{ "first": "No Assigned LMC", "last": ".Provider" }],
+          "auto_populate": { "first": "No Assigned LMC", "last": ".Provider" },
+          "auto_populate_source": "DEFAULT"
+        },
+        "phone": {
+          "output": { "processed": "9057638660", "raw": "905-763-8660" },
+          "confidence": 0.9985,
+          "bounding_box": {
+            "phone": {
+              "top_left_x": 416,
+              "top_left_y": 572,
+              "bottom_right_x": 611,
+              "bottom_right_y": 602
+            }
+          },
+          "page_number": 1
+        },
+        "fax_number": {
+          "output": { "processed": "9057630708", "raw": "905-763-0708" },
+          "confidence": 0.9993,
+          "bounding_box": {
+            "fax_number": {
+              "top_left_x": 418,
+              "top_left_y": 616,
+              "bottom_right_x": 610,
+              "bottom_right_y": 648
+            }
+          },
+          "page_number": 1
+        },
+        "email": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "page_number": null
+        },
+        "address": {
+          "output": {
+            "processed": {
+              "address": "1600 STEELES AVE.W.UNIT VAUGHAN 5",
+              "city": "",
+              "state/province": "",
+              "zip/postal": "L4K 3B9",
+              "country": ""
+            },
+            "raw": {
+              "address": "1600 STEELES AVE.W.UNIT VAUGHAN 5",
+              "city": "",
+              "state/province": "",
+              "zip/postal": "L4K 3B9",
+              "country": ""
+            }
+          },
+          "confidence": 0.46762631578947367,
+          "bounding_box": {
+            "address": {
+              "top_left_x": 425,
+              "top_left_y": 659,
+              "bottom_right_x": 824,
+              "bottom_right_y": 692
+            },
+            "zip/postal": {
+              "top_left_x": 420,
+              "top_left_y": 754,
+              "bottom_right_x": 536,
+              "bottom_right_y": 784
+            }
+          },
+          "page_number": 1,
+          "input": {
+            "address": "1600 Steeles Ave. West, Unit 5",
+            "city": "Concord",
+            "country": "ca"
+          },
+          "auto_populate": {
+            "address": "1600 Steeles Ave. West, Unit 5",
+            "city": "Concord",
+            "country": "ca"
+          },
+          "matched": {
+            "address": "1600 Steeles Ave. West, Unit 5",
+            "city": "Concord",
+            "country": "ca"
+          },
+          "auto_populate_source": "DOCUMENT"
+        },
+        "provider_id": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        },
+        "speciality": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "page_number": null
+        },
+        "npi": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        },
+        "degree": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        },
+        "billing_number": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        }
+      }
+    },
+    "insurance_information": {
+      "data": {
+        "primary": {
+          "insurance_name": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "insurance_plan": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "group_number": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "bill_type": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "subscriber_name": {
+            "output": {
+              "processed": { "first": "DICLE", "middle": "", "last": "BOZ" },
+              "raw": "BOZ,  DICLE"
+            },
+            "confidence": 0.998,
+            "bounding_box": {
+              "subscriber_name": {
+                "top_left_x": 1163,
+                "top_left_y": 364,
+                "bottom_right_x": 1332,
+                "bottom_right_y": 398
+              }
+            },
+            "page_number": 1
+          },
+          "subscriber_date_of_birth": {
+            "output": {
+              "processed": {
+                "day": "18",
+                "month": "10",
+                "year": "2010",
+                "age": "15"
+              },
+              "raw": { "date": "2010 10 18", "age": "" }
+            },
+            "confidence": 0.8933,
+            "bounding_box": {
+              "date": {
+                "top_left_x": 1164,
+                "top_left_y": 690,
+                "bottom_right_x": 1317,
+                "bottom_right_y": 721
+              }
+            },
+            "page_number": 1
+          },
+          "subscriber_id": {
+            "output": { "processed": "9295580006 VP", "raw": "9295580006 VP" },
+            "confidence": 0.73,
+            "bounding_box": {
+              "subscriber_id": {
+                "top_left_x": 1235,
+                "top_left_y": 780,
+                "bottom_right_x": 1453,
+                "bottom_right_y": 811
+              }
+            },
+            "page_number": 1
+          },
+          "subscriber_phone": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "subscriber_address": {
+            "output": {
+              "processed": {
+                "address": "404 Taylor Mills Dr N",
+                "city": "",
+                "state/province": "",
+                "zip/postal": "",
+                "country": ""
+              },
+              "raw": {
+                "address": "404 Taylor Mills Dr N",
+                "city": "",
+                "state/province": "",
+                "zip/postal": "",
+                "country": ""
+              }
+            },
+            "confidence": 0.35913684210526314,
+            "bounding_box": {
+              "address": {
+                "top_left_x": 1165,
+                "top_left_y": 409,
+                "bottom_right_x": 1443,
+                "bottom_right_y": 442
+              }
+            },
+            "page_number": 1
+          },
+          "subscriber_group_number": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          }
+        },
+        "secondary": {
+          "insurance_name": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "insurance_plan": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "group_number": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "bill_type": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "subscriber_name": {
+            "output": {
+              "processed": { "first": "", "middle": "", "last": "" },
+              "raw": ""
+            },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "subscriber_date_of_birth": {
+            "output": {
+              "processed": { "day": "", "month": "", "year": "", "age": "" },
+              "raw": { "date": "", "age": "" }
+            },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "subscriber_id": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "subscriber_phone": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "subscriber_address": {
+            "output": {
+              "processed": {
+                "address": "",
+                "city": "",
+                "state/province": "",
+                "zip/postal": "",
+                "country": ""
+              },
+              "raw": {
+                "address": "",
+                "city": "",
+                "state/province": "",
+                "zip/postal": "",
+                "country": ""
+              }
+            },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "subscriber_group_number": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          }
+        },
+        "guarantor": {
+          "guarantor_name": {
+            "output": {
+              "processed": { "first": "", "middle": "", "last": "" },
+              "raw": ""
+            },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "guarantor_phone": {
+            "output": { "processed": "", "raw": "" },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          },
+          "guarantor_address": {
+            "output": {
+              "processed": {
+                "address": "",
+                "city": "",
+                "state/province": "",
+                "zip/postal": "",
+                "country": ""
+              },
+              "raw": {
+                "address": "",
+                "city": "",
+                "state/province": "",
+                "zip/postal": "",
+                "country": ""
+              }
+            },
+            "confidence": 0,
+            "bounding_box": {},
+            "page_number": null
+          }
+        }
+      }
+    },
+    "reason_diagnosis_procedure": {
+      "data": {
+        "complete_text": [
+          {
+            "output": {
+              "processed": "Reason for consultation: uncontrolled DM Type 1",
+              "raw": "Reason for consultation: uncontrolled DM Type 1"
+            },
+            "confidence": 0.9990505831582206,
+            "bounding_box": {
+              "top_left_x": 154,
+              "top_left_y": 1027,
+              "bottom_right_x": 523,
+              "bottom_right_y": 1106
+            },
+            "page_number": 1
+          }
+        ],
+        "reason": [{ "output": { "processed": { "reason": "Diabetes" } } }],
+        "diagnosis": [],
+        "order_date": {
+          "output": {
+            "processed": { "day": "", "month": "", "year": "" },
+            "raw": ""
+          },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        },
+        "IP_OR_OP": [],
+        "DME_AUTH_REQ_FORM": [],
+        "auth_req_form_commercial_OP": [],
+        "auth_req_form_commercial_BHOP": [],
+        "pre_auth_req_form_medicare_OP": [],
+        "medicaid_GOVT_OP": [],
+        "auth_req_form_commercial_DME": [],
+        "pre_auth_req_form_medicare_DME": [],
+        "medicaid_GOVT_DME": [],
+        "medicaid_home_commercial_LTSS": [],
+        "bh_template": [],
+        "input": {
+          "diagnosis": [],
+          "reason": [{ "cpt_code": "DM ", "reason": "Diabetes " }]
+        },
+        "matched": { "reason": [{ "cpt_code": "DM ", "reason": "Diabetes " }] }
+      }
+    },
+    "patient_information": {
+      "data": {
+        "name": {
+          "output": {
+            "processed": { "first": "DICLE", "middle": "", "last": "BOZ" },
+            "raw": "BOZ,  DICLE"
+          },
+          "confidence": 0.9993,
+          "bounding_box": {
+            "name": {
+              "top_left_x": 1163,
+              "top_left_y": 364,
+              "bottom_right_x": 1332,
+              "bottom_right_y": 398
+            }
+          },
+          "page_number": 1,
+          "input": { "first": "Dicle", "middle": "", "last": "Boz" }
+        },
+        "patient_id": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        },
+        "medical_record_number": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "page_number": null
+        },
+        "social_security_number": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "page_number": null
+        },
+        "health_card_number": {
+          "output": {
+            "processed": { "NO": "9295580006", "CODE": "vp" },
+            "raw": "(ON) 9295580006 VP"
+          },
+          "confidence": 0.9981,
+          "bounding_box": {
+            "health_card_number": {
+              "top_left_x": 1160,
+              "top_left_y": 780,
+              "bottom_right_x": 1453,
+              "bottom_right_y": 813
+            }
+          },
+          "page_number": 1,
+          "input": { "CODE": "ON", "NO": "9295580006" }
+        },
+        "DOB": {
+          "output": {
+            "processed": {
+              "day": "18",
+              "month": "10",
+              "year": "2010",
+              "age": "15"
+            },
+            "raw": { "date": "2010 10 18", "age": "" }
+          },
+          "confidence": 0.9998,
+          "bounding_box": {
+            "date": {
+              "top_left_x": 1164,
+              "top_left_y": 690,
+              "bottom_right_x": 1317,
+              "bottom_right_y": 721
+            }
+          },
+          "page_number": 1,
+          "input": { "day": "18", "month": "10", "year": "2010" }
+        },
+        "phone": {
+          "output": {
+            "processed": {
+              "work": "",
+              "home": "",
+              "cell": "",
+              "undefined": ["6472629752"]
+            },
+            "raw": {
+              "work": "",
+              "home": "",
+              "cell": "",
+              "undefined": ["647-262-9752"]
+            }
+          },
+          "confidence": 0.9997,
+          "bounding_box": {
+            "undefined": {
+              "top_left_x": 1160,
+              "top_left_y": 513,
+              "bottom_right_x": 1356,
+              "bottom_right_y": 545
+            }
+          },
+          "page_number": 1,
+          "input": [{ "home": "6472629752", "work": "", "cell": "6472629752" }]
+        },
+        "gender": {
+          "output": { "processed": "F", "raw": "F" },
+          "confidence": 0.9989,
+          "bounding_box": {
+            "gender": {
+              "top_left_x": 1166,
+              "top_left_y": 737,
+              "bottom_right_x": 1182,
+              "bottom_right_y": 766
+            }
+          },
+          "page_number": 1,
+          "input": "Female"
+        },
+        "email": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null,
+          "input": ""
+        },
+        "address": {
+          "output": {
+            "processed": {
+              "address": "404 Taylor Mills Dr N",
+              "city": "Richmond Hill,",
+              "state/province": "ON,",
+              "zip/postal": "L4C2V2",
+              "country": ""
+            },
+            "raw": {
+              "address": "404 Taylor Mills Dr N",
+              "city": "Richmond Hill,",
+              "state/province": "ON,",
+              "zip/postal": "L4C2V2",
+              "country": ""
+            }
+          },
+          "confidence": 0.9997315789473685,
+          "bounding_box": {
+            "address": {
+              "top_left_x": 1165,
+              "top_left_y": 409,
+              "bottom_right_x": 1443,
+              "bottom_right_y": 442
+            },
+            "city": {
+              "top_left_x": 1162,
+              "top_left_y": 441,
+              "bottom_right_x": 1362,
+              "bottom_right_y": 472
+            },
+            "state/province": {
+              "top_left_x": 1367,
+              "top_left_y": 441,
+              "bottom_right_x": 1424,
+              "bottom_right_y": 471
+            },
+            "zip/postal": {
+              "top_left_x": 1161,
+              "top_left_y": 471,
+              "bottom_right_x": 1276,
+              "bottom_right_y": 502
+            }
+          },
+          "page_number": 1,
+          "input": {
+            "address": "404 Taylor Mills Dr N",
+            "city": "Richmond Hill",
+            "stateOrProvince": "Ontario",
+            "zipOrPostal": "L4C 2V2",
+            "country": ""
+          }
+        }
+      }
+    },
+    "waitlist_type": {
+      "data": { "auto_populate": ".Referral", "input": ".Referral" }
+    }
+  }
+}

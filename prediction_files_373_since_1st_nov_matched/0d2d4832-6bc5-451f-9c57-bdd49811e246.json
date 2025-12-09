@@ -1,0 +1,644 @@
+{
+  "multi_patient": {
+    "is_multi_patient": false,
+    "multi_patient_clusters": {},
+    "confidence": 0.9986
+  },
+  "document_type": {
+    "document_classifier_info": {
+      "model_name": "lmc-healthcare",
+      "model_index": 1,
+      "doc_map_type": "custom",
+      "doc_type_name": "Forms & Letters",
+      "doc_type_index": 245,
+      "input_doc_type": "Referral Inbound - Other Endocrine",
+      "output_doc_type": "Forms & Letters - Letter From Family Physician"
+    },
+    "overall": {
+      "class": "Forms & Letters - Letter From Family Physician",
+      "confidence": 0.45379,
+      "index": 245
+    },
+    "page_1": {
+      "class": "Forms & Letters - Letter From Family Physician",
+      "index": 244,
+      "confidence": "0.453789",
+      "angle": 0.3854
+    }
+  },
+  "imaging_modality": { "imaging": "No", "exam_type": null },
+  "regions": {
+    "metadata": {
+      "data": {
+        "priority": {
+          "output": {
+            "processed": { "value": "No", "source": "checkbox" },
+            "raw": "NO"
+          },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null,
+          "input": "No"
+        },
+        "date": {
+          "output": { "processed": ["02-10-2003"], "raw": "OCT 2 3 2025" },
+          "confidence": 0.9092881202697753,
+          "bounding_box": {
+            "top_left_x": 132,
+            "top_left_y": 365,
+            "bottom_right_x": 711,
+            "bottom_right_y": 456
+          },
+          "page_number": 1
+        },
+        "fax_date": {
+          "output": { "processed": ["24-10-2025"], "raw": "10/24/2025" },
+          "confidence": 0.9999780654907227,
+          "bounding_box": {
+            "top_left_x": 83,
+            "top_left_y": 0,
+            "bottom_right_x": 226,
+            "bottom_right_y": 25
+          },
+          "page_number": 1
+        }
+      }
+    },
+    "from": {
+      "data": {
+        "physician_name": {
+          "output": {
+            "processed": {
+              "first": "Gholamreza",
+              "middle": "",
+              "last": "Davoodi"
+            },
+            "raw": "Dr.  Gholamreza Davoodi"
+          },
+          "confidence": 0.9876,
+          "bounding_box": {
+            "physician_name": {
+              "top_left_x": 916,
+              "top_left_y": 1925,
+              "bottom_right_x": 1348,
+              "bottom_right_y": 2001
+            }
+          },
+          "page_number": 1,
+          "input": { "first": "Gholamreza", "middle": "", "last": "Davoodi" },
+          "matched": { "first": "Gholamreza", "middle": "", "last": "Davoodi" }
+        },
+        "phone": {
+          "output": { "processed": "11416782777", "raw": "Tel:4167827772" },
+          "confidence": 0.9706,
+          "bounding_box": {
+            "phone": {
+              "top_left_x": 910,
+              "top_left_y": 2035,
+              "bottom_right_x": 1113,
+              "bottom_right_y": 2088
+            }
+          },
+          "page_number": 1,
+          "input": "4167827772",
+          "matched": "4167827772"
+        },
+        "fax_number": {
+          "output": { "processed": "4167826664", "raw": "Fax:4167826664" },
+          "confidence": 0.9786,
+          "bounding_box": {
+            "fax_number": {
+              "top_left_x": 1114,
+              "top_left_y": 2059,
+              "bottom_right_x": 1333,
+              "bottom_right_y": 2109
+            }
+          },
+          "page_number": 1,
+          "input": "4167826664",
+          "matched": "4167826664"
+        },
+        "email": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "page_number": null,
+          "input": "",
+          "matched": ""
+        },
+        "address": {
+          "output": {
+            "processed": {
+              "address": "3077 Bathurst Street,",
+              "city": "North York,",
+              "state/province": "On,",
+              "zip/postal": "M6A 179",
+              "country": ""
+            },
+            "raw": {
+              "address": "3077 Bathurst Street,",
+              "city": "North York,",
+              "state/province": "On,",
+              "zip/postal": "M6A 179",
+              "country": ""
+            }
+          },
+          "confidence": 0.9976736842105263,
+          "bounding_box": {
+            "address": {
+              "top_left_x": 509,
+              "top_left_y": 160,
+              "bottom_right_x": 849,
+              "bottom_right_y": 204
+            },
+            "city": {
+              "top_left_x": 856,
+              "top_left_y": 163,
+              "bottom_right_x": 1039,
+              "bottom_right_y": 207
+            },
+            "state/province": {
+              "top_left_x": 1046,
+              "top_left_y": 166,
+              "bottom_right_x": 1106,
+              "bottom_right_y": 207
+            },
+            "zip/postal": {
+              "top_left_x": 1113,
+              "top_left_y": 168,
+              "bottom_right_x": 1257,
+              "bottom_right_y": 208
+            }
+          },
+          "page_number": 1,
+          "input": {
+            "address": "3077 Bathurst Street",
+            "city": "North York",
+            "stateOrProvince": "ON",
+            "zipOrPostal": "M6A 1Z9",
+            "country": "CA"
+          },
+          "matched": {
+            "address": "3077 Bathurst Street",
+            "city": "North York",
+            "country": "CA",
+            "state/province": "ON",
+            "zip/postal": "M6A 1Z9",
+            "locationId": 397421,
+            "taxId": null
+          }
+        },
+        "provider_id": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null,
+          "input": "",
+          "matched": ""
+        },
+        "billing_number": {
+          "output": { "processed": "031040", "raw": "031040" },
+          "confidence": 0.9957,
+          "bounding_box": {
+            "billing_number": {
+              "top_left_x": 523,
+              "top_left_y": 2087,
+              "bottom_right_x": 728,
+              "bottom_right_y": 2143
+            }
+          },
+          "page_number": 1,
+          "input": "031040",
+          "matched": "031040"
+        },
+        "npi": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null,
+          "input": "",
+          "matched": ""
+        },
+        "facility": {
+          "output": {
+            "processed": "BATHURST LAWRENK RENCE WA WALK-IN CLINIC",
+            "raw": "BATHURST LAWRENK RENCE WA WALK-IN CLINIC"
+          },
+          "confidence": 0.9929,
+          "bounding_box": {
+            "facility": {
+              "top_left_x": 409,
+              "top_left_y": 102,
+              "bottom_right_x": 1347,
+              "bottom_right_y": 162
+            }
+          },
+          "page_number": 1
+        },
+        "speciality": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "page_number": null
+        },
+        "degree": {
+          "output": { "processed": "M.D, CCFP", "raw": "M.D, CCFP" },
+          "confidence": 0.9892,
+          "bounding_box": {
+            "degree": {
+              "top_left_x": 1051,
+              "top_left_y": 1986,
+              "bottom_right_x": 1200,
+              "bottom_right_y": 2026
+            }
+          },
+          "page_number": 1
+        },
+        "source": "DIRECTORY",
+        "matched_score": 45.5,
+        "matched_physicians": 2,
+        "matched_search_input": [
+          { "input": { "billingNumber": "031040" }, "matchFound": true }
+        ]
+      }
+    },
+    "to": {
+      "data": {
+        "facility": {
+          "output": {
+            "processed": "Endocrinologist(LMC)",
+            "raw": "Endocrinologist(LMC)"
+          },
+          "confidence": 0.4886,
+          "bounding_box": {
+            "facility": {
+              "top_left_x": 423,
+              "top_left_y": 483,
+              "bottom_right_x": 898,
+              "bottom_right_y": 552
+            }
+          },
+          "page_number": 1,
+          "input": "LMC - Downtown",
+          "auto_populate": "LMC- Bayview Clinic ",
+          "auto_populate_source": "NO_MAPPING"
+        },
+        "physician_name": {
+          "output": {
+            "processed": {
+              "first": "Karlo",
+              "middle": "Noel Cortez",
+              "last": "Feliciano"
+            },
+            "raw": "Feliciano,  Karlo Noel Cortez"
+          },
+          "confidence": 0.9608,
+          "bounding_box": {
+            "physician_name": {
+              "top_left_x": 159,
+              "top_left_y": 612,
+              "bottom_right_x": 571,
+              "bottom_right_y": 645
+            }
+          },
+          "page_number": 1,
+          "input": [{ "first": "No Assigned LMC", "last": ".Provider" }],
+          "auto_populate": { "first": "No Assigned LMC", "last": ".Provider" },
+          "auto_populate_source": "DEFAULT"
+        },
+        "phone": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        },
+        "fax_number": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        },
+        "email": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "page_number": null
+        },
+        "address": {
+          "output": {
+            "processed": {
+              "address": "",
+              "city": "",
+              "state/province": "",
+              "zip/postal": "",
+              "country": ""
+            },
+            "raw": {
+              "address": "",
+              "city": "",
+              "state/province": "",
+              "zip/postal": "",
+              "country": ""
+            }
+          },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null,
+          "input": {
+            "address": "123 Edward Street, Suite #825",
+            "city": "Toronto",
+            "country": "ca"
+          },
+          "auto_populate": {
+            "address": "107 - 1929 Bayview Ave.",
+            "city": "Toronto",
+            "country": "ca"
+          },
+          "auto_populate_source": "NO_MAPPING"
+        },
+        "provider_id": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        },
+        "speciality": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "page_number": null
+        },
+        "npi": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        },
+        "degree": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        },
+        "billing_number": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        }
+      }
+    },
+    "reason_diagnosis_procedure": {
+      "data": {
+        "complete_text": [
+          {
+            "output": {
+              "processed": "REASON FOR YEŞ NŐ REFERRAL: Thank you for seeing they pleasant 29 year old who is born male but is willing to start hormone therapy with female hormones.",
+              "raw": "REASON FOR YEŞ NŐ REFERRAL: Thank you for seeing they pleasant 29 year old who is born male but is willing to start hormone therapy with female hormones."
+            },
+            "confidence": 0.9984357484749385,
+            "bounding_box": {
+              "top_left_x": 129,
+              "top_left_y": 806,
+              "bottom_right_x": 1620,
+              "bottom_right_y": 1080
+            },
+            "page_number": 1
+          }
+        ],
+        "reason": [
+          { "output": { "processed": { "reason": "Other Endocrine" } } }
+        ],
+        "diagnosis": [],
+        "order_date": {
+          "output": {
+            "processed": { "day": "", "month": "", "year": "" },
+            "raw": ""
+          },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null
+        },
+        "IP_OR_OP": [],
+        "DME_AUTH_REQ_FORM": [],
+        "auth_req_form_commercial_OP": [],
+        "auth_req_form_commercial_BHOP": [],
+        "pre_auth_req_form_medicare_OP": [],
+        "medicaid_GOVT_OP": [],
+        "auth_req_form_commercial_DME": [],
+        "pre_auth_req_form_medicare_DME": [],
+        "medicaid_GOVT_DME": [],
+        "medicaid_home_commercial_LTSS": [],
+        "bh_template": [],
+        "input": {
+          "diagnosis": [],
+          "reason": [
+            { "cpt_code": "Other Endocrine", "reason": "Other Endocrine" }
+          ]
+        },
+        "matched": {
+          "reason": [
+            { "cpt_code": "Other Endocrine", "reason": "Other Endocrine" }
+          ]
+        }
+      }
+    },
+    "patient_information": {
+      "data": {
+        "name": {
+          "output": {
+            "processed": {
+              "first": "Karlo",
+              "middle": "Noel Cortez",
+              "last": "Feliciano"
+            },
+            "raw": "Feliciano,  Karlo Noel Cortez"
+          },
+          "confidence": 0.9986,
+          "bounding_box": {
+            "name": {
+              "top_left_x": 159,
+              "top_left_y": 612,
+              "bottom_right_x": 571,
+              "bottom_right_y": 645
+            }
+          },
+          "page_number": 1,
+          "input": {
+            "first": "Karlo",
+            "middle": "Noel Cortez",
+            "last": "Feliciano"
+          }
+        },
+        "patient_id": {
+          "output": { "processed": "GD 3822", "raw": "GD 3822" },
+          "confidence": 0.7558,
+          "bounding_box": {
+            "patient_id": {
+              "top_left_x": 619,
+              "top_left_y": 611,
+              "bottom_right_x": 744,
+              "bottom_right_y": 643
+            }
+          },
+          "page_number": 1
+        },
+        "medical_record_number": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "page_number": null
+        },
+        "social_security_number": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "page_number": null
+        },
+        "health_card_number": {
+          "output": {
+            "processed": { "NO": "1504336767", "CODE": "nj" },
+            "raw": "1504 336 767 NJ"
+          },
+          "confidence": 0.8531,
+          "bounding_box": {
+            "health_card_number": {
+              "top_left_x": 560,
+              "top_left_y": 714,
+              "bottom_right_x": 754,
+              "bottom_right_y": 744
+            }
+          },
+          "page_number": 1,
+          "input": { "CODE": "ON", "NO": "1504336767" }
+        },
+        "DOB": {
+          "output": {
+            "processed": {
+              "day": "24",
+              "month": "7",
+              "year": "1996",
+              "age": "29"
+            },
+            "raw": { "date": "Jul 24  1996", "age": "" }
+          },
+          "confidence": 0.9996,
+          "bounding_box": {
+            "date": {
+              "top_left_x": 611,
+              "top_left_y": 682,
+              "bottom_right_x": 752,
+              "bottom_right_y": 710
+            }
+          },
+          "page_number": 1,
+          "input": { "day": "24", "month": "07", "year": "1996" }
+        },
+        "phone": {
+          "output": {
+            "processed": {
+              "work": "",
+              "home": "4163233497",
+              "cell": "6477209809",
+              "undefined": []
+            },
+            "raw": {
+              "work": "",
+              "home": "416-323-3497(H)",
+              "cell": "647-720-9809(M)",
+              "undefined": []
+            }
+          },
+          "confidence": 0.9944500000000001,
+          "bounding_box": {
+            "home": {
+              "top_left_x": 162,
+              "top_left_y": 715,
+              "bottom_right_x": 353,
+              "bottom_right_y": 745
+            },
+            "cell": {
+              "top_left_x": 358,
+              "top_left_y": 715,
+              "bottom_right_x": 555,
+              "bottom_right_y": 745
+            }
+          },
+          "page_number": 1,
+          "input": [{ "home": "4163233497", "work": "", "cell": "6477209809" }]
+        },
+        "gender": {
+          "output": { "processed": "M", "raw": "M" },
+          "confidence": 0.9912,
+          "bounding_box": {
+            "gender": {
+              "top_left_x": 583,
+              "top_left_y": 683,
+              "bottom_right_x": 601,
+              "bottom_right_y": 709
+            }
+          },
+          "page_number": 1,
+          "input": "Male"
+        },
+        "email": {
+          "output": { "processed": "", "raw": "" },
+          "confidence": 0,
+          "bounding_box": {},
+          "page_number": null,
+          "input": ""
+        },
+        "address": {
+          "output": {
+            "processed": {
+              "address": "3240 Bathurst Street App 202",
+              "city": "Toronto,",
+              "state/province": "ON",
+              "zip/postal": "M6A 2B3",
+              "country": ""
+            },
+            "raw": {
+              "address": "3240 Bathurst Street App 202",
+              "city": "Toronto,",
+              "state/province": "ON",
+              "zip/postal": "M6A 2B3",
+              "country": ""
+            }
+          },
+          "confidence": 0.999521052631579,
+          "bounding_box": {
+            "address": {
+              "top_left_x": 160,
+              "top_left_y": 651,
+              "bottom_right_x": 499,
+              "bottom_right_y": 678
+            },
+            "city": {
+              "top_left_x": 164,
+              "top_left_y": 684,
+              "bottom_right_x": 257,
+              "bottom_right_y": 713
+            },
+            "state/province": {
+              "top_left_x": 261,
+              "top_left_y": 684,
+              "bottom_right_x": 299,
+              "bottom_right_y": 711
+            },
+            "zip/postal": {
+              "top_left_x": 314,
+              "top_left_y": 684,
+              "bottom_right_x": 422,
+              "bottom_right_y": 711
+            }
+          },
+          "page_number": 1,
+          "input": {
+            "address": "3240 Bathurst Street App 202",
+            "city": "Toronto",
+            "stateOrProvince": "Ontario",
+            "zipOrPostal": "M6A 2B4",
+            "country": ""
+          }
+        }
+      }
+    },
+    "waitlist_type": {
+      "data": { "auto_populate": ".Referral", "input": ".Referral" }
+    }
+  }
+}
