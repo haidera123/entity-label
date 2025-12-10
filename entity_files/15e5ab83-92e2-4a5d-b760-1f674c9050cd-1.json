@@ -262,7 +262,7 @@
                     ],
                     "text": "O",
                     "confidence": "Low",
-                    "entity": "I-physician_name_to"
+                    "entity": "O"
                 },
                 {
                     "bounding_box": [
@@ -277,7 +277,7 @@
                     ],
                     "text": "Markham",
                     "confidence": "Low",
-                    "entity": "I-physician_name_to"
+                    "entity": "B-physician_name_to"
                 },
                 {
                     "bounding_box": [
@@ -291,7 +291,7 @@
                         407.0
                     ],
                     "text": "O",
-                    "entity": "O"
+                    "entity": "I-physician_name_to"
                 },
                 {
                     "bounding_box": [

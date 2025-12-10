@@ -1032,7 +1032,7 @@
                         524.0
                     ],
                     "text": "Bajaj,",
-                    "entity": "O"
+                    "entity": "B-physician_name_to"
                 },
                 {
                     "bounding_box": [
@@ -1060,7 +1060,7 @@
                         526.0
                     ],
                     "text": "Harpreet",
-                    "entity": "O"
+                    "entity": "B-physician_name_to"
                 }
             ]
         },

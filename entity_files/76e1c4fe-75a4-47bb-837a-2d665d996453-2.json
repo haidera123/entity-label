@@ -514,7 +514,7 @@
                         442.0
                     ],
                     "text": "LMC",
-                    "entity": "B-physician_name_to"
+                    "entity": "O"
                 },
                 {
                     "bounding_box": [
@@ -528,7 +528,7 @@
                         443.0
                     ],
                     "text": "BARRIE",
-                    "entity": "I-physician_name_to"
+                    "entity": "B-physician_name_to"
                 }
             ]
         },
@@ -572,7 +572,7 @@
                         442.0
                     ],
                     "text": "LMC",
-                    "entity": "O"
+                    "entity": "B-physician_name_to"
                 },
                 {
                     "bounding_box": [

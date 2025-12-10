@@ -1319,7 +1319,7 @@
                         495.0
                     ],
                     "text": "Chandra,",
-                    "entity": "O"
+                    "entity": "B-physician_name_to"
                 },
                 {
                     "bounding_box": [
@@ -1347,7 +1347,7 @@
                         494.0
                     ],
                     "text": "Prakash",
-                    "entity": "O"
+                    "entity": "B-physician_name_to"
                 }
             ]
         },
@@ -3327,7 +3327,7 @@
                     ],
                     "text": "Baig",
                     "confidence": "Low",
-                    "entity": "B-physician_name_from"
+                    "entity": "O"
                 }
             ]
         },
@@ -4008,7 +4008,7 @@
                         1345.0
                     ],
                     "text": "BAIG,",
-                    "entity": "O"
+                    "entity": "B-physician_name_from"
                 },
                 {
                     "bounding_box": [
@@ -4022,7 +4022,7 @@
                         1345.0
                     ],
                     "text": "NAJEEB",
-                    "entity": "O"
+                    "entity": "I-physician_name_from"
                 },
                 {
                     "bounding_box": [

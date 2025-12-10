@@ -401,7 +401,7 @@
                         204.0
                     ],
                     "text": "Soetan",
-                    "entity": "O"
+                    "entity": "I-physician_name_from"
                 }
             ]
         },
@@ -1196,7 +1196,7 @@
                         492.0
                     ],
                     "text": "Asiam,",
-                    "entity": "O"
+                    "entity": "B-physician_name_to"
                 },
                 {
                     "bounding_box": [

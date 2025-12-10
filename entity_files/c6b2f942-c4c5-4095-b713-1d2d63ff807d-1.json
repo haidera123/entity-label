@@ -228,7 +228,7 @@
                         2015.0
                     ],
                     "text": "G.",
-                    "entity": "O"
+                    "entity": "B-physician_name_from"
                 },
                 {
                     "bounding_box": [
@@ -242,7 +242,7 @@
                         2012.0
                     ],
                     "text": "Weinstein",
-                    "entity": "B-physician_name_from"
+                    "entity": "I-physician_name_from"
                 },
                 {
                     "bounding_box": [
@@ -271,7 +271,7 @@
                         1997.0
                     ],
                     "text": "Klein",
-                    "entity": "O"
+                    "entity": "B-physician_name_from"
                 },
                 {
                     "bounding_box": [

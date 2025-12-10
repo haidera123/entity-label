@@ -204,7 +204,7 @@
                     ],
                     "text": "C.",
                     "confidence": "Low",
-                    "entity": "O"
+                    "entity": "B-physician_name_to"
                 },
                 {
                     "bounding_box": [
