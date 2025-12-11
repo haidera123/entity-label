@@ -629,7 +629,7 @@
                         277.0
                     ],
                     "text": "(416)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -643,7 +643,7 @@
                         277.0
                     ],
                     "text": "743-5853",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },
@@ -686,7 +686,7 @@
                         322.0
                     ],
                     "text": "(416)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -700,7 +700,7 @@
                         322.0
                     ],
                     "text": "743-1358",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

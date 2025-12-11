@@ -728,7 +728,7 @@
                         290.0
                     ],
                     "text": "(905)-895-0008",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -756,7 +756,7 @@
                         291.0
                     ],
                     "text": "(905)-895-1816",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

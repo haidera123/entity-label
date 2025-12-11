@@ -937,7 +937,7 @@
                         703.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -952,7 +952,7 @@
                     ],
                     "text": "488-5405",
                     "confidence": "Low",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },
@@ -1010,7 +1010,7 @@
                         738.0
                     ],
                     "text": "(289)",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -1024,7 +1024,7 @@
                         739.0
                     ],
                     "text": "720-2500",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 }
             ]
         },

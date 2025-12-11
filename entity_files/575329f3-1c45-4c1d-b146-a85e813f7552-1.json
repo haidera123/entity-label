@@ -645,7 +645,7 @@
                         679.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -659,7 +659,7 @@
                         680.0
                     ],
                     "text": "763-8660",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },

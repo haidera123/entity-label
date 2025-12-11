@@ -414,7 +414,7 @@
                         288.0
                     ],
                     "text": "905-721-4994",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -442,7 +442,7 @@
                         286.0
                     ],
                     "text": "905-721-6623",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

@@ -3699,7 +3699,7 @@
                         1902.0
                     ],
                     "text": "416",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -3713,7 +3713,7 @@
                         1902.0
                     ],
                     "text": "241",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -3727,7 +3727,7 @@
                         1901.0
                     ],
                     "text": "4689",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },

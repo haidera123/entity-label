@@ -272,7 +272,7 @@
                         28.0
                     ],
                     "text": "16474800879",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },
@@ -500,7 +500,7 @@
                         206.0
                     ],
                     "text": "647.479.8410",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [

@@ -300,7 +300,7 @@
                         312.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -314,7 +314,7 @@
                         313.0
                     ],
                     "text": "864-8787",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -342,7 +342,7 @@
                         314.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -356,7 +356,7 @@
                         314.0
                     ],
                     "text": "864-1522",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

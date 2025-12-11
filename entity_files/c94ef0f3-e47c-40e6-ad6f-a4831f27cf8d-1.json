@@ -856,7 +856,7 @@
                         1017.0
                     ],
                     "text": "(416)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -870,7 +870,7 @@
                         1017.0
                     ],
                     "text": "226-3302",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },
@@ -928,7 +928,7 @@
                         1058.0
                     ],
                     "text": "(416)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -942,7 +942,7 @@
                         1057.0
                     ],
                     "text": "849-0434",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

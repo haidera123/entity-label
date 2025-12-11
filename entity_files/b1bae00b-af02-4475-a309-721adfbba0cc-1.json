@@ -258,7 +258,7 @@
                         29.0
                     ],
                     "text": "15199140122",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },
@@ -658,7 +658,7 @@
                         331.0
                     ],
                     "text": "226-210-3773",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [

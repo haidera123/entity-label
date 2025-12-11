@@ -302,7 +302,7 @@
                         258.0
                     ],
                     "text": "(647)",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -316,7 +316,7 @@
                         258.0
                     ],
                     "text": "490-6330",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 }
             ]
         },

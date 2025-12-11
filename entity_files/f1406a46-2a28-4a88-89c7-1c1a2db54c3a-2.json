@@ -672,7 +672,7 @@
                         425.0
                     ],
                     "text": "(647)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -686,7 +686,7 @@
                         425.0
                     ],
                     "text": "497-7453",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -728,7 +728,7 @@
                         424.0
                     ],
                     "text": "(855)",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -742,7 +742,7 @@
                         424.0
                     ],
                     "text": "778-2835",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 }
             ]
         },

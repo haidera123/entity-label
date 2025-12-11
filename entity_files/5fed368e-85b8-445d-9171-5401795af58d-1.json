@@ -300,7 +300,7 @@
                         29.0
                     ],
                     "text": "14167450786",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },
@@ -873,7 +873,7 @@
                         282.0
                     ],
                     "text": "416-745-4555",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [

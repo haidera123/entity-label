@@ -632,7 +632,7 @@
                         716.0
                     ],
                     "text": "(877)",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -646,7 +646,7 @@
                         716.0
                     ],
                     "text": "562-2778",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 }
             ]
         },
@@ -803,7 +803,7 @@
                         960.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -817,7 +817,7 @@
                         960.0
                     ],
                     "text": "846-5400",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },

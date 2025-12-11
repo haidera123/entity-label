@@ -528,7 +528,7 @@
                         257.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -542,7 +542,7 @@
                         257.0
                     ],
                     "text": "237-7599",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },
@@ -585,7 +585,7 @@
                         307.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -599,7 +599,7 @@
                         308.0
                     ],
                     "text": "237-6599",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

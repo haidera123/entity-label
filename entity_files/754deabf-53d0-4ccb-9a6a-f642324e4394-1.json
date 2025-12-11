@@ -272,7 +272,7 @@
                         28.0
                     ],
                     "text": "14165460558",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },
@@ -588,7 +588,7 @@
                         276.0
                     ],
                     "text": "416",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -602,7 +602,7 @@
                         275.0
                     ],
                     "text": "519",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -616,7 +616,7 @@
                         275.0
                     ],
                     "text": "4855",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 },
                 {
                     "bounding_box": [

@@ -1595,7 +1595,7 @@
                         469.0
                     ],
                     "text": "(647",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -1623,7 +1623,7 @@
                         468.0
                     ],
                     "text": "729",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -1637,7 +1637,7 @@
                         467.0
                     ],
                     "text": "2008",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 }
             ]
         },

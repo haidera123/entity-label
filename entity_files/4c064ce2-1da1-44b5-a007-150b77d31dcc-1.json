@@ -3211,7 +3211,7 @@
                     ],
                     "text": "289-837-3311",
                     "confidence": "Low",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -3240,7 +3240,7 @@
                     ],
                     "text": "289837-10",
                     "confidence": "Low",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

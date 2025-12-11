@@ -461,7 +461,7 @@
                         646.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -475,7 +475,7 @@
                         644.0
                     ],
                     "text": "721-6887",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },
@@ -547,7 +547,7 @@
                         719.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -561,7 +561,7 @@
                         717.0
                     ],
                     "text": "721-6694",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 }
             ]
         },

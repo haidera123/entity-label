@@ -457,7 +457,7 @@
                         277.0
                     ],
                     "text": "705",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -471,7 +471,7 @@
                         276.0
                     ],
                     "text": "431",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -485,7 +485,7 @@
                         275.0
                     ],
                     "text": "5641",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },

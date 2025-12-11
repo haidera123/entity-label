@@ -287,7 +287,7 @@
                         273.0
                     ],
                     "text": "9056782831",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -315,7 +315,7 @@
                         273.0
                     ],
                     "text": "9056781515",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

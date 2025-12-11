@@ -30,7 +30,7 @@
                         27.0
                     ],
                     "text": "(416)",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -44,7 +44,7 @@
                         29.0
                     ],
                     "text": "234-5695",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 }
             ]
         },
@@ -776,7 +776,7 @@
                         956.0
                     ],
                     "text": "(647)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -790,7 +790,7 @@
                         957.0
                     ],
                     "text": "331-8343",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },

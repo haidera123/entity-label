@@ -1483,7 +1483,7 @@
                         432.0
                     ],
                     "text": "(416)864",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -1497,7 +1497,7 @@
                         432.0
                     ],
                     "text": "0722,",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -1526,7 +1526,7 @@
                     ],
                     "text": "(416)864",
                     "confidence": "Low",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -1540,7 +1540,7 @@
                         432.0
                     ],
                     "text": "9742",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

@@ -514,7 +514,7 @@
                         251.0
                     ],
                     "text": "647-352-5533",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -542,7 +542,7 @@
                         251.0
                     ],
                     "text": "647-352-5531",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

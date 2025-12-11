@@ -3693,7 +3693,7 @@
                     ],
                     "text": "P.437",
                     "confidence": "Low",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -3707,7 +3707,7 @@
                         1629.0
                     ],
                     "text": "783",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -3722,7 +3722,7 @@
                     ],
                     "text": "4343",
                     "confidence": "Low",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },

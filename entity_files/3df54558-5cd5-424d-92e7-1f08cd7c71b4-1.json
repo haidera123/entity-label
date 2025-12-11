@@ -572,7 +572,7 @@
                         626.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -586,7 +586,7 @@
                         625.0
                     ],
                     "text": "763-0708",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 }
             ]
         },

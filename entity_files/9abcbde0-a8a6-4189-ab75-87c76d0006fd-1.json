@@ -286,7 +286,7 @@
                         28.0
                     ],
                     "text": "19054122953",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },
@@ -715,7 +715,7 @@
                         344.0
                     ],
                     "text": "416-243-8626",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 }
             ]
         },

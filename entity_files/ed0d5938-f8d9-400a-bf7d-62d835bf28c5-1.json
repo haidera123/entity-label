@@ -903,7 +903,7 @@
                         952.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -917,7 +917,7 @@
                         953.0
                     ],
                     "text": "840-5000",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },
@@ -975,7 +975,7 @@
                         992.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -989,7 +989,7 @@
                         991.0
                     ],
                     "text": "840-2020",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

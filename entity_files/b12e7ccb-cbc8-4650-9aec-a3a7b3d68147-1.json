@@ -1983,7 +1983,7 @@
                         1861.0
                     ],
                     "text": "519-289-0352",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -2011,7 +2011,7 @@
                         1861.0
                     ],
                     "text": "519-289-0355",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         }

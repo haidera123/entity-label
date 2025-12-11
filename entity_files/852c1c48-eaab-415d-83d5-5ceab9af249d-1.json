@@ -115,7 +115,7 @@
                         48.0
                     ],
                     "text": "705-739-5627",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },
@@ -446,7 +446,7 @@
                         658.0
                     ],
                     "text": "705-739-5691",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 }
             ]
         },

@@ -30,7 +30,7 @@
                         27.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -44,7 +44,7 @@
                         30.0
                     ],
                     "text": "771-7752",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 }
             ]
         },
@@ -860,7 +860,7 @@
                         961.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -874,7 +874,7 @@
                         961.0
                     ],
                     "text": "771-7755",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },
@@ -933,7 +933,7 @@
                         1000.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [

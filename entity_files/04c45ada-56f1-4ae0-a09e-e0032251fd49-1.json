@@ -787,7 +787,7 @@
                         329.0
                     ],
                     "text": "289",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -801,7 +801,7 @@
                         330.0
                     ],
                     "text": "269",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -815,7 +815,7 @@
                         332.0
                     ],
                     "text": "1522",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -843,7 +843,7 @@
                         335.0
                     ],
                     "text": "905",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -857,7 +857,7 @@
                         335.0
                     ],
                     "text": "303",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -871,7 +871,7 @@
                         336.0
                     ],
                     "text": "9774",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 }
             ]
         },

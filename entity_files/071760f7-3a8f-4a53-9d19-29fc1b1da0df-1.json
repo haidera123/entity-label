@@ -556,7 +556,7 @@
                         298.0
                     ],
                     "text": "416-354-2640",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [

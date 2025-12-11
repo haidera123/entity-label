@@ -159,7 +159,7 @@
                         42.0
                     ],
                     "text": "613",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -173,7 +173,7 @@
                         41.0
                     ],
                     "text": "736",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -188,7 +188,7 @@
                     ],
                     "text": "6948",
                     "confidence": "Low",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 }
             ]
         },

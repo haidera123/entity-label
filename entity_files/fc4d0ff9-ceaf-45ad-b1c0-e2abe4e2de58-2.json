@@ -360,7 +360,7 @@
                         257.0
                     ],
                     "text": "416",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -374,7 +374,7 @@
                         256.0
                     ],
                     "text": "633-6812",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },
@@ -417,7 +417,7 @@
                         302.0
                     ],
                     "text": "416",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -431,7 +431,7 @@
                         301.0
                     ],
                     "text": "633-6187",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

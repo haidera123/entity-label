@@ -186,7 +186,7 @@
                         1921.0
                     ],
                     "text": "416-498-3600",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -215,7 +215,7 @@
                     ],
                     "text": "416-498-121",
                     "confidence": "Low",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

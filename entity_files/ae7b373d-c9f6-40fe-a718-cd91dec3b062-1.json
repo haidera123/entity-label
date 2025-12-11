@@ -915,7 +915,7 @@
                         1016.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -930,7 +930,7 @@
                     ],
                     "text": "417-2058",
                     "confidence": "Low",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },
@@ -988,7 +988,7 @@
                         1057.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -1002,7 +1002,7 @@
                         1057.0
                     ],
                     "text": "417-1508",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

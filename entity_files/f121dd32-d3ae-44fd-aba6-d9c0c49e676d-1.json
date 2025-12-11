@@ -215,7 +215,7 @@
                         27.0
                     ],
                     "text": "18889493222",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

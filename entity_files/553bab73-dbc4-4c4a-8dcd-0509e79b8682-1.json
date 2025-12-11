@@ -372,7 +372,7 @@
                         250.0
                     ],
                     "text": "416-742-4646",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -400,7 +400,7 @@
                         251.0
                     ],
                     "text": "416-742-0138",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

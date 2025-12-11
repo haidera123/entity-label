@@ -442,7 +442,7 @@
                         339.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -456,7 +456,7 @@
                         340.0
                     ],
                     "text": "497-7424",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -484,7 +484,7 @@
                         341.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -498,7 +498,7 @@
                         342.0
                     ],
                     "text": "497-9255",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

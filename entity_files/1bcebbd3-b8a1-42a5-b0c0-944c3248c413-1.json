@@ -101,7 +101,7 @@
                         35.0
                     ],
                     "text": "+14162590184",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },
@@ -515,7 +515,7 @@
                         258.0
                     ],
                     "text": "416-201-0836",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [

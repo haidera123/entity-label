@@ -5003,7 +5003,7 @@
                         2012.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -5017,7 +5017,7 @@
                         2011.0
                     ],
                     "text": "884-0666",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },
@@ -5291,7 +5291,7 @@
                         2164.0
                     ],
                     "text": "1.877.LMC.APPT",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -5305,7 +5305,7 @@
                         2164.0
                     ],
                     "text": "(562.2778)",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 }
             ]
         },

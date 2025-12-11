@@ -3819,7 +3819,7 @@
                         1864.0
                     ],
                     "text": "(416)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -3833,7 +3833,7 @@
                         1864.0
                     ],
                     "text": "438-1987",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },
@@ -3863,7 +3863,7 @@
                     ],
                     "text": "(647)",
                     "confidence": "Low",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -3877,7 +3877,7 @@
                         1861.0
                     ],
                     "text": "776-7822",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 }
             ]
         },

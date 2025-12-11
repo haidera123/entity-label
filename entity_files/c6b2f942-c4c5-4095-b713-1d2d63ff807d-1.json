@@ -499,7 +499,7 @@
                         1875.0
                     ],
                     "text": "416-485-9044",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -527,7 +527,7 @@
                         1861.0
                     ],
                     "text": "416-485-8525",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

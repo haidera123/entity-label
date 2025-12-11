@@ -1667,7 +1667,7 @@
                     ],
                     "text": "116-615-197)",
                     "confidence": "Low",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

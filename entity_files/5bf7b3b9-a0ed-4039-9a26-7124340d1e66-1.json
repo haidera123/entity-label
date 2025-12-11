@@ -258,7 +258,7 @@
                         29.0
                     ],
                     "text": "14164869227",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },
@@ -571,7 +571,7 @@
                         275.0
                     ],
                     "text": "416-486-9600",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [

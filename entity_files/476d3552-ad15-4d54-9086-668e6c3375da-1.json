@@ -513,7 +513,7 @@
                         250.0
                     ],
                     "text": "905-844-7238",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -541,7 +541,7 @@
                         251.0
                     ],
                     "text": "905-844-7256",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

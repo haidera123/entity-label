@@ -602,7 +602,7 @@
                         320.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -616,7 +616,7 @@
                         321.0
                     ],
                     "text": "237-7723",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -644,7 +644,7 @@
                         320.0
                     ],
                     "text": "1(905)",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -658,7 +658,7 @@
                         319.0
                     ],
                     "text": "291-0768",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 }
             ]
         },

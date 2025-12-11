@@ -453,7 +453,7 @@
                         375.0
                     ],
                     "text": "(416)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -467,7 +467,7 @@
                         375.0
                     ],
                     "text": "586-4437",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -495,7 +495,7 @@
                         375.0
                     ],
                     "text": "(416)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -509,7 +509,7 @@
                         375.0
                     ],
                     "text": "586-8861",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

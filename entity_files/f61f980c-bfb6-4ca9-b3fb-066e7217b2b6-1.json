@@ -86,7 +86,7 @@
                         59.0
                     ],
                     "text": "(613)",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -100,7 +100,7 @@
                         59.0
                     ],
                     "text": "260-7188",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -114,7 +114,7 @@
                         59.0
                     ],
                     "text": "613-260-7188",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 },
                 {
                     "bounding_box": [

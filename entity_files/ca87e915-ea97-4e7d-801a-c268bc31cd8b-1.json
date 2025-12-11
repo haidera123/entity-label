@@ -30,7 +30,7 @@
                         28.0
                     ],
                     "text": "(519)",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -44,7 +44,7 @@
                         29.0
                     ],
                     "text": "850-3238",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 }
             ]
         },
@@ -560,7 +560,7 @@
                         961.0
                     ],
                     "text": "(519)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -574,7 +574,7 @@
                         961.0
                     ],
                     "text": "850-3234",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },
@@ -633,7 +633,7 @@
                         1001.0
                     ],
                     "text": "(519)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [

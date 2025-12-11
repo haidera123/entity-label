@@ -464,7 +464,7 @@
                     ],
                     "text": "1-87",
                     "confidence": "Low",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -494,7 +494,7 @@
                     ],
                     "text": "562",
                     "confidence": "Low",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -523,7 +523,7 @@
                     ],
                     "text": "2778",
                     "confidence": "Low",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 }
             ]
         },

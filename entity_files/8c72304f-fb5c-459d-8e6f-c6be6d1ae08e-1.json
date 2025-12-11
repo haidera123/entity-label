@@ -30,7 +30,7 @@
                         28.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -44,7 +44,7 @@
                         29.0
                     ],
                     "text": "604-7890",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 }
             ]
         },
@@ -890,7 +890,7 @@
                         954.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -904,7 +904,7 @@
                         954.0
                     ],
                     "text": "604-7889",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },
@@ -962,7 +962,7 @@
                         993.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [

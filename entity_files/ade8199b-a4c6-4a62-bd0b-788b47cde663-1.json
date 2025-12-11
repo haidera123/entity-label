@@ -404,7 +404,7 @@
                         403.0
                     ],
                     "text": "416-536-9303",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -447,7 +447,7 @@
                         444.0
                     ],
                     "text": "Fax:-416-537-4102",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

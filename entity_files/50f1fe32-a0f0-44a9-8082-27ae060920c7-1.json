@@ -243,7 +243,7 @@
                         27.0
                     ],
                     "text": "14167447642",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },
@@ -642,7 +642,7 @@
                         175.0
                     ],
                     "text": "416-744-8510",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [

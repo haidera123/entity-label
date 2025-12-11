@@ -499,7 +499,7 @@
                         250.0
                     ],
                     "text": "416-633-3711",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -527,7 +527,7 @@
                         252.0
                     ],
                     "text": "416-633-0521",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

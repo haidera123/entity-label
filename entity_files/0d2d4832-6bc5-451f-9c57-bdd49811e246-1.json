@@ -492,7 +492,7 @@
                         248.0
                     ],
                     "text": "(416)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -506,7 +506,7 @@
                         249.0
                     ],
                     "text": "782-7772",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },
@@ -549,7 +549,7 @@
                         255.0
                     ],
                     "text": "(416)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -563,7 +563,7 @@
                         256.0
                     ],
                     "text": "782-6664",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

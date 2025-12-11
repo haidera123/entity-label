@@ -501,7 +501,7 @@
                         255.0
                     ],
                     "text": "613-721-0978",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [

@@ -272,7 +272,7 @@
                         28.0
                     ],
                     "text": "19058579791",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

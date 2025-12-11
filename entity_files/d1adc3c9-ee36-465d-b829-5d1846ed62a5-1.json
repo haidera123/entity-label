@@ -801,7 +801,7 @@
                         1010.0
                     ],
                     "text": "(416)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -816,7 +816,7 @@
                     ],
                     "text": "615-0",
                     "confidence": "Low",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },
@@ -874,7 +874,7 @@
                         1051.0
                     ],
                     "text": "(416)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -888,7 +888,7 @@
                         1050.0
                     ],
                     "text": "673-9198",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

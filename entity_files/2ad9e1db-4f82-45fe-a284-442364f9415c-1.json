@@ -861,7 +861,7 @@
                         955.0
                     ],
                     "text": "(519)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -875,7 +875,7 @@
                         955.0
                     ],
                     "text": "601-862",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },
@@ -933,7 +933,7 @@
                         994.0
                     ],
                     "text": "(519)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -947,7 +947,7 @@
                         994.0
                     ],
                     "text": "204-1759",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

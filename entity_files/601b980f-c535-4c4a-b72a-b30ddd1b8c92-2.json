@@ -619,7 +619,7 @@
                     ],
                     "text": "(905)",
                     "confidence": "Low",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -633,7 +633,7 @@
                         335.0
                     ],
                     "text": "337-0040",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },
@@ -676,7 +676,7 @@
                         375.0
                     ],
                     "text": "(905)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -690,7 +690,7 @@
                         375.0
                     ],
                     "text": "337-0044",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

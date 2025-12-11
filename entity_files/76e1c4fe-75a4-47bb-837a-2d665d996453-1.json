@@ -5060,7 +5060,7 @@
                         2111.0
                     ],
                     "text": "1.877.LMC.APPT",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 },
                 {
                     "bounding_box": [
@@ -5074,7 +5074,7 @@
                         2111.0
                     ],
                     "text": "(562.2778)",
-                    "entity": "O"
+                    "entity": "I-fax_from"
                 }
             ]
         },

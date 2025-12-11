@@ -215,7 +215,7 @@
                         27.0
                     ],
                     "text": "19058261214",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },
@@ -489,7 +489,7 @@
                         236.0
                     ],
                     "text": "905-826-1164",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [

@@ -745,7 +745,7 @@
                         961.0
                     ],
                     "text": "(416)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -759,7 +759,7 @@
                         961.0
                     ],
                     "text": "350-5900",
-                    "entity": "O"
+                    "entity": "I-phone_from"
                 }
             ]
         },
@@ -818,7 +818,7 @@
                         1000.0
                     ],
                     "text": "(416)",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
@@ -832,7 +832,7 @@
                         999.0
                     ],
                     "text": "350-5981",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },

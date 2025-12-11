@@ -258,7 +258,7 @@
                         29.0
                     ],
                     "text": "14372940885",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },
@@ -529,7 +529,7 @@
                         295.0
                     ],
                     "text": "437-826-3005",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 }
             ]
         },

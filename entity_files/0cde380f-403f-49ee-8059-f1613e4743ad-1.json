@@ -243,7 +243,7 @@
                         26.0
                     ],
                     "text": "16135996922",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },
@@ -4868,7 +4868,7 @@
                         1840.0
                     ],
                     "text": "613.505.9704",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 }
             ]
         },

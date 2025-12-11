@@ -272,7 +272,7 @@
                         29.0
                     ],
                     "text": "14165727118",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },
@@ -485,7 +485,7 @@
                         251.0
                     ],
                     "text": "647-977-5447",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [

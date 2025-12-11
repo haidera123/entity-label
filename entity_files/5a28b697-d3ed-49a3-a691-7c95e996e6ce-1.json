@@ -174,7 +174,7 @@
                         39.0
                     ],
                     "text": "4169018788",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },
@@ -459,7 +459,7 @@
                         277.0
                     ],
                     "text": "416-961-8186",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [

@@ -201,7 +201,7 @@
                         27.0
                     ],
                     "text": "14165999731",
-                    "entity": "O"
+                    "entity": "B-fax_from"
                 }
             ]
         },
@@ -727,7 +727,7 @@
                         321.0
                     ],
                     "text": "416-599-6000",
-                    "entity": "O"
+                    "entity": "B-phone_from"
                 },
                 {
                     "bounding_box": [
